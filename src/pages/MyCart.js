@@ -55,8 +55,8 @@ class MyCart extends Component {
           <button onClick={this.random}>random</button>
           <img onClick={this.addToList}src={this.state.imgUrl}/>
           <button onClick={()=>this.props.add(this.state.imgUrl)}>add </button>
-          {/* {allTasks} */}
           <br />
+          {/* {allTasks} */}
         </div>
       )
     }

@@ -58,12 +58,13 @@ clearItem = (cat) => {
         <Route exact path='/' component={Home}/>
         <Route path='/About' component={About} />
         <Route path='/MyCart' component={ ()=> <MyCart add={this.add} /> }/>
-        <Route path='/MyList' component={()=> <MyList mylist={this.state.mylist}/>} />
+        <Route path='/MyList' component={()=> <MyList clearItem={this.clearItem} clearList={this.clearList} mylist={this.state.mylist}/>} />
         </Switch>
       </div>
   </Router>
   {/* <MyCart /> */}
-  <footer>jnnnjjnjnj</footer>
+  
+  
    </div>
 
     );
