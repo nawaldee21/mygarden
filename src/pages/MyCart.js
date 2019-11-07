@@ -51,8 +51,10 @@ class MyCart extends Component {
       
       return (
         <div>
-
-          <button onClick={this.random}>random</button>
+          <h1 className="cat">Thinking of adding a cat to your family? 
+            Here are some cats want to be your new best friend.</h1>
+            <br/>
+          <button class="material-icons"onClick={this.random}>random cat</button>
           <img onClick={this.addToList}src={this.state.imgUrl}/>
           <button onClick={()=>this.props.add(this.state.imgUrl)}>add </button>
           <br />

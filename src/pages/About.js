@@ -2,18 +2,22 @@ import React from 'react';
 
 const About =(props) => {
     return(
-        <div>
-            <h1>About my garden</h1>
-            <p>n MY PLANTS you build your own library of plants.
+        <body className='Login-component'>
+        <div className="abo">
+          
+            <p>Riyadh Animal Shelter was founded by an activist who would offer animals in need temporary shelter and medical treatment before finding them 
+                good permanent homes. 
+                The numbers of animals helped grew and it was time to expand.
 
-Add photos and details information about YOUR plants. You can add as many photos as you wish, wich is good if you want to know how the plant looks during different time of the year.
+                She finally founded Riyadh Animal Shelter in 2014 which became a center from which volunteers of various backgrounds would operate from.
+                 In 2018,
+                 a private veterinary clinic was founded to help support the shelter and its activities.
 
-You can save information about all kind of plants: Trees, bushes, Flowers, Vegetables, Weed…
-
-One tip is to take pictures of of the stickers you get when you buy a plant, or the seed bag or even at the label in the store, so you collect as much information as possible about your plant.
-
-There are many detailed fields you can fill in if you wish such as Type, Varietey, Scientific name etc.</p>
+                In addition to rescuing, the shelters’ 
+                volunteering group aims to promote animal welfare in society through events held at schools and universities..</p>
         </div>
+        
+    </body>
     )
 }
 

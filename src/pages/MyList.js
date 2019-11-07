@@ -8,7 +8,7 @@ class MyList extends Component{
                 return (
                     <div>
                         <img key={index} src={item}/>
-                        <button onClick={() => this.props.clearItem(item)}>clear Item</button>
+                        <button onClick={() => this.props.clearItem(item)}>delete</button>
                     </div>
                 )   
             
@@ -16,7 +16,7 @@ class MyList extends Component{
         return(
             <div>
                {naw}
-               <button onClick={() => this.props.clearList()}> clear List</button>
+               <button onClick={() => this.props.clearList()}> delete all</button>
             </div>
         )
     }

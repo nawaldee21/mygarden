@@ -4,8 +4,8 @@ import React from 'react';
 const Home = (props) => {
     return(
         <div>
-            <h1>Hello</h1>
-            <p>welcome </p>
+        <h1 className="home">Hello</h1>
+            <p className="hoo">welcome to riyadh shelter </p>
         </div>
     )
 }

@@ -43,15 +43,16 @@ clearItem = (cat) => {
     <div>
 <Router>
   
-        <nav>
         <Logo/>
+        <header>
+        <nav>
 
-          <Link className="hLink" to='/'>Home </Link>{' | '}
-           <Link className="hLink" to='/About'>About </Link>{' | '}
-        <Link className="hLink" to='/MyCart'>My Cart</Link>{' | '}
-        <Link className="hLink" to='/MyList'>My List </Link>
+          <Link className="hLink" to='/'>HOME </Link>{' | '}
+           <Link className="hLink" to='/About'>ABOUT </Link>{' | '}
+        <Link className="hLink" to='/MyCart'>FIND A CAT </Link>
         </nav>
-
+        <Link  to='/MyList'><button className="cta">MY LIST </button></Link>
+</header>
       <div>
         
         <Switch>
@@ -64,7 +65,7 @@ clearItem = (cat) => {
   </Router>
   {/* <MyCart /> */}
   
-  
+
    </div>
 
     );
