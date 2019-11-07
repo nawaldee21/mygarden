@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nawaldee21/static/css/main.3e02b759.chunk.css",
+    "main.js": "/nawaldee21/static/js/main.e4f38477.chunk.js",
+    "main.js.map": "/nawaldee21/static/js/main.e4f38477.chunk.js.map",
+    "runtime-main.js": "/nawaldee21/static/js/runtime-main.90232be2.js",
+    "runtime-main.js.map": "/nawaldee21/static/js/runtime-main.90232be2.js.map",
+    "static/js/2.7bed2ca5.chunk.js": "/nawaldee21/static/js/2.7bed2ca5.chunk.js",
+    "static/js/2.7bed2ca5.chunk.js.map": "/nawaldee21/static/js/2.7bed2ca5.chunk.js.map",
+    "index.html": "/nawaldee21/index.html",
+    "precache-manifest.956efe5fc3ba75a2c3d460a7b14cee26.js": "/nawaldee21/precache-manifest.956efe5fc3ba75a2c3d460a7b14cee26.js",
+    "service-worker.js": "/nawaldee21/service-worker.js",
+    "static/css/main.3e02b759.chunk.css.map": "/nawaldee21/static/css/main.3e02b759.chunk.css.map",
+    "static/media/logo.png": "/nawaldee21/static/media/logo.06492b95.png",
+    "static/media/App.css": "/nawaldee21/static/media/mon.596342c3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90232be2.js",
+    "static/js/2.7bed2ca5.chunk.js",
+    "static/css/main.3e02b759.chunk.css",
+    "static/js/main.e4f38477.chunk.js"
+  ]
+}
